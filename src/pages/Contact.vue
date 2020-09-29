@@ -1,15 +1,14 @@
 <template>
     <div class="container d-flex flex-column justify-content-between">
         <div class="row w-100 footer-end">
-            <div class="col-lg-12 d-flex flex-row justify-content-between align-items-start">
-                <div class="col-lg-4 socials">
+                <div class="col-lg-4 col-md-4 col-sm-12 my-4 socials">
                     <h4>Contact Me</h4>
                     <Socials />
                 </div>
-                <div class="col-lg-4 d-flex justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 my-4 d-flex justify-content-center">
                     <b-navbar-brand id="logo" href="#"><strong>{{logo}}</strong></b-navbar-brand>
                 </div>
-                <div class="col-lg-4 location contact">
+                <div class="col-lg-4 col-md-4 col-sm-12 my-4 location contact">
                     <h4>Info</h4>
                     <p class="d-flex flex-column">
                         <span>
@@ -21,7 +20,6 @@
                         </span>
                     </p>
                 </div>
-            </div>
         </div>
         <p class="row copyright w-100 h-100 d-flex justify-content-center">©2020 Braian Ariel Maciel, This portfolio it's property of Braian Ariel Maciel. All rights reserved.</p>
     </div>
@@ -57,6 +55,6 @@ export default {
 .copyright {
     font-size: 0.8rem;
     margin: 0 !important;
-    padding: 9px;
+    padding: 13px 26px !important;
 }
 </style>
