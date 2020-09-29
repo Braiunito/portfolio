@@ -1,0 +1,110 @@
+@import './variables.scss';
+
+// Animations
+@keyframes linkIn {
+  from  { font-size: 150%; }
+  to    { font-size: 100%;}
+}
+@keyframes linkOut {
+  0%   { font-size: 100%;}
+  100% { font-size: 150%; }
+}
+@keyframes imgIn {
+  from  { padding: 0px; }
+  to    { padding: 20px; }
+}
+@keyframes imgOut {
+  0%   { padding: 20px; }
+  100% { padding: 0px; }
+}
+@keyframes navIn {
+  0%    { background-color: $nightBlue; }
+  100%  { background-color: transparent; }
+}
+@keyframes navOut {
+  0%    { background-color: transparent; }
+  100%  { background-color: $nightBlue; }
+}
+@keyframes balanced {
+  from    { transform: rotate(-7deg);  }
+  to  { transform: rotate(7deg);  }
+}
+@keyframes fillContainer {
+  from    { transform: translateY(70px);  }
+  to  { transform: translateY(0px);  }
+}
+
+// Styles
+body {
+  margin: 0;
+    #app {      
+        #logo {
+          margin-left: 10px;
+          font-weight: bold;
+          color: white;
+          width: 50px;
+          height: 50px;
+          border: 3px solid white;
+          border-radius: 100px;
+          padding-top: 8px;
+        }        
+
+        padding-top: 0;
+        min-height: 100vh;
+        background-color: $mainColor;
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: $lavenderBlue;
+
+        .noSelectable {
+          user-select: none;
+        }
+
+        .about {
+          background-color: $blackCoral;
+        }
+        a {
+          color: $myWhite;
+          opacity: 0.9;
+        }
+        
+        .highlight {
+          color: $rubineRed;
+        }
+
+        .text-spaced {
+          letter-spacing: 4px;
+        }
+
+        .hide {
+          display: none;
+        }
+
+        .desktop#nav-bar.transparent {
+          animation: navIn 0.5s forwards;
+        }
+        .desktop#nav-bar.solid {
+          animation: navOut 0.5s forwards;
+        }
+
+        .page {
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 70px;
+        }
+
+        .page.footer {
+          min-height: 40vh;
+          padding-bottom: 0px !important;
+          background-color: $nightBlue;
+          border-radius: 14px 14px 0 0;
+          .copyright {
+            background-color: $blackCoral;
+          }
+        }
+        
+    }
+}

@@ -1,0 +1,111 @@
+{
+"stacks": [
+    {
+      "name": "JavaScript",
+      "percent": "100",
+      "class": "js"
+    },
+    {
+      "name": "Drupal",
+      "percent": "95",
+      "class": "php"
+    },
+    {
+      "name": "PHP",
+      "percent": "90",
+      "class": "php"
+    },
+    {
+      "name": "Docker",
+      "percent": "90",
+      "class": "docker"
+    },
+    {
+      "name": "VueJS",
+      "percent": "85",
+      "class": "js"
+    },
+    {
+      "name": "MySQL",
+      "percent": "80",
+      "class": "sql"
+    },
+    {
+      "name": "Lando",
+      "percent": "75",
+      "class": "docker"
+    },
+    {
+      "name": "Laravel",
+      "percent": "75",
+      "class": "php"
+    },
+    {
+      "name": "Python",
+      "percent": "72",
+      "class": "python"
+    },
+    {
+      "name": "Django",
+      "percent": "68",
+      "class": "python"
+    },
+    {
+      "name": "Flask",
+      "percent": "62",
+      "class": "python"
+    },
+    {
+      "name": "React",
+      "percent": "60",
+      "class": "js"
+    }
+],
+"projects": [
+  {
+    "subtitle": "Development",
+    "title": "dev-www.42mate.com",
+    "textExplaining": "My first job was create a new from scratch page for the 42mate site with a new fresh style and design. Doing the most part of the backend and the frontend. Nowdays the project is in stand by, waiting for someone to transfer all the original content from the original site to this new site. The site is 100% usable and functional! (Just we need more workers LoL!)",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "42mate.png",
+    "siteURL": "https://dev-www.42mate.com"
+  },
+  {
+    "subtitle": "Maintenance",
+    "title": "RIF.org",
+    "textExplaining": "Daily one of the main projects in that I work it's this, I'm the encharge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "rif.png",
+    "siteURL": "https://www.rif.org"
+  },
+  {
+    "subtitle": "Maintenance",
+    "title": "Skybrary.org | Consumer",
+    "textExplaining": "Daily one of the main projects in that I work it's this, I'm the encharge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "consumer.png",
+    "siteURL": "https://www.skybrary.org"
+  },
+  {
+    "subtitle": "Maintenance",
+    "title": "school.Skybrary.org | EDU",
+    "textExplaining": "Daily one of the main projects in that I work it's this, I'm the encharge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "school.png",
+    "siteURL": "https://school.skybrary.org/user"
+  },
+  {
+    "subtitle": "You choose!",
+    "title": "Your new site?",
+    "textExplaining": "I could be your next big hit in your team, I could cover some roll and support to the others, work in team, improve the comunication, teach and learn in group. And a lot of things more! Are you interested in? Just scroll a little bit more! Thanks for getting to here!!! \\(◕ ◡ ◕\\) ",
+    "photoSub": "Your new awesome site!",
+    "photoTitle": "",
+    "imgSrc": "mockup.png",
+    "siteURL": ""
+  }
+]
+}

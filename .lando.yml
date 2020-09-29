@@ -1,0 +1,8 @@
+name: portfolio
+recipe: lemp
+config:
+    via: nginx
+    webroot: ./src
+services:
+    web:
+        type: node:12.16.2

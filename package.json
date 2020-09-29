@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "cpycv": "cp ./src/assets/data/cv.pdf ./public/cv.pdf; cp ./src/assets/data/cv.pdf ./dist/cv.pdf",
+    "cpyp": "rm ./public/cv.pdf; rm ./dist/cv.pdf; npm run cpycv",
+    "dev": "vue-cli-service serve; npm run cpyp",
+    "build": "vue-cli-service build; npm run cpyp",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
