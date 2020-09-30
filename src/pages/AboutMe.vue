@@ -19,7 +19,7 @@
             </p>
           </div> 
           <div class="col-lg-5 pt-5 d-flex flex-column justify-content-start align-items-start">
-            <p class="text-spaced">- Nowdays</p>
+            <p class="text-spaced">- Nowadays</p>
             <h1 class="noSelectable font-weight-bold" id="textChanger">Current background and work.</h1>
             <br>
             <p class="text-justify">
@@ -27,7 +27,7 @@
               fulfilling development, maintenance and software management tasks, as well as some business analyst tasks. Also I learned 
               about how to perform some infrastructure tasks. Basically as I work in a small company and the roles were not well distributed, 
               I had the opportunity to learn a little about each "role", thus being able to face any situation more easily. 
-              Regarding to my studies I'm currently studying the carrer of "Computer science" in the "Siglo21" university.
+              Regarding to my studies I'm currently studying the career of "Computer science" in the "Siglo21" university.
             </p>
           </div> 
         </div>
@@ -76,7 +76,7 @@
             <h4>Extras</h4>
             <p class="text-justify">
               <ul>
-                <li>I founded my own fourniture business
+                <li>I founded my own furniture business
                   <br>Name: 
                   <strong>MabElick 
                     <a class='pl-1' href="https://www.instagram.com/muebles_mabelick/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -84,11 +84,11 @@
                     <a class='pl-2' :href="getImgUrl('inProgress.jpg')" target="_blank"><font-awesome-icon :icon="['fab', 'amazon']" /></a>
                   </strong>
                   <br>Sponsor: Myself
-                  <br>Duration: {{getTimeFromFoundation}} months to nowdays</li>
-                <li>I'm currently coursing my university carrer
+                  <br>Duration: {{getTimeFromFoundation}} months to Nowadays</li>
+                <li>I'm currently coursing my university career
                   <br>Name: Computer Science
                   <br>University: Siglo21
-                  <br>Duration: {{getTimeFromStartUniversity}} months to nowdays</li>
+                  <br>Duration: {{getTimeFromStartUniversity}} months to Nowadays</li>
               </ul>
             </p>
 
@@ -118,13 +118,13 @@ export default {
   },
   computed: {
     getTimeFromFoundation() {
-      return this.fromDateToNowdays("2020/06/05");
+      return this.fromDateToNowadays("2020/06/05");
     },
     getTimeFromStartUniversity() {
-      return this.fromDateToNowdays("2019/03/02");
+      return this.fromDateToNowadays("2019/03/02");
     },
     getTimeFromStartAtJob() {
-      return this.fromDateToNowdays("2019/09/14");
+      return this.fromDateToNowadays("2019/09/14");
     }
   },
   methods: {
@@ -138,7 +138,7 @@ export default {
       }
       return path;
     },
-    fromDateToNowdays(fromDate) {
+    fromDateToNowadays(fromDate) {
       let startDate = new Date(fromDate);
       let nowTime = new Date(Date.now());
       let years = (nowTime.getFullYear() - startDate.getFullYear()) * 12;
