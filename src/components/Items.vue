@@ -45,7 +45,6 @@ export default {
             window.addEventListener("scroll", ()=>{
                 this.itemSelected(window.scrollY, sections);
             });
-            console.log(sections);
         },
         detectRezise() {
             window.addEventListener("resize", ()=>{
