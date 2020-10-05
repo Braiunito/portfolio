@@ -33,6 +33,15 @@ export default {
     makeNavSolid() {
         var firstTime = true;
         var nav = document.getElementById('nav-bar');
+        document.body.addEventListener("click", () => {
+          let butNav = nav.getElementsByTagName("button")[0];
+          let stylize = butNav.classList.contains("not-collapsed");
+          if (stylize) {
+            nav.classList.add("nav-solid");
+          } else {
+            nav.classList.remove("nav-solid");
+          }
+        });
         window.addEventListener('scroll', ()=>{
           var scrollPos = window.scrollY;
           var winHeight = window.innerHeight;
