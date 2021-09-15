@@ -2,7 +2,7 @@ name: portfolio
 recipe: lemp
 config:
     via: nginx
-    webroot: ./src
+    webroot: ./dist
 services:
     web:
         type: node:12.16.2

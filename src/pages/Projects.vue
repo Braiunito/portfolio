@@ -4,6 +4,7 @@
       <div v-for="(project, index) in projects"  :key="index">
         <MyProjects :alternate = '((index%2)==0) ? "flex-row" : "flex-row-reverse"'
                     :subtitle = 'project.subtitle'
+                    :tech = 'project.tech'
                     :title = 'project.title'
                     :textExplaining = 'project.textExplaining'
                     :photoSub = 'project.photoSub'

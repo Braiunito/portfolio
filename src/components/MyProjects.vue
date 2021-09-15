@@ -13,8 +13,11 @@
         <!-- here you can swap with class flex-row and flex-row-reverse -->
         <div :class="'row d-flex '+alternate+' justify-content-between align-items-center w-100 h-100 mt-5'">
           <div class="col-lg-5 pt-5 d-flex flex-column justify-content-start align-items-start">
-            <p class="text-spaced">{{(subtitle != '') ? '- '+subtitle : ''}}</p>
-            <h1 class="noSelectable font-weight-bold" id="textChanger"><a :href="siteURL" target="_blank">{{title}}</a></h1>
+            <p class="text-spaced m-0">{{(subtitle != '') ? 'Role: '+subtitle : ''}}</p>
+            <p v-if="tech" class="m-0">
+                <small>{{(tech != '') ? 'Stack: '+tech : ''}}</small>
+            </p>
+            <h1 class="noSelectable font-weight-bold mt-2" id="textChanger"><a :href="siteURL" target="_blank">{{title}}</a></h1>
             <br>
             <p class="text-justify">
               {{textExplaining}}
@@ -46,7 +49,8 @@ export default {
         photoSub: String,
         photoTitle: String,
         imgSrc: String,
-        siteURL: String
+        siteURL: String,
+        tech: String
     },
     methods: {
         getImgUrl(pic) {

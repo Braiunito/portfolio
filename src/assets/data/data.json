@@ -2,13 +2,8 @@
 "stacks": [
     {
       "name": "JavaScript",
-      "percent": "100",
-      "class": "js"
-    },
-    {
-      "name": "Drupal",
       "percent": "95",
-      "class": "php"
+      "class": "js"
     },
     {
       "name": "PHP",
@@ -16,34 +11,39 @@
       "class": "php"
     },
     {
-      "name": "Docker",
-      "percent": "90",
-      "class": "docker"
+      "name": "Python",
+      "percent": "72",
+      "class": "python"
     },
     {
-      "name": "VueJS",
+      "name": "VueJs",
       "percent": "85",
       "class": "js"
     },
     {
-      "name": "MySQL",
+      "name": "NodeJs",
       "percent": "80",
-      "class": "sql"
+      "class": "js"
     },
     {
-      "name": "Lando",
-      "percent": "75",
-      "class": "docker"
+      "name": "React",
+      "percent": "60",
+      "class": "js"
     },
     {
-      "name": "Laravel",
-      "percent": "75",
+      "name": "Symfony",
+      "percent": "90",
       "class": "php"
     },
     {
-      "name": "Python",
-      "percent": "72",
-      "class": "python"
+      "name": "Laravel",
+      "percent": "85",
+      "class": "php"
+    },
+    {
+      "name": "Drupal 7",
+      "percent": "80",
+      "class": "php"
     },
     {
       "name": "Django",
@@ -56,23 +56,60 @@
       "class": "python"
     },
     {
-      "name": "React",
-      "percent": "60",
-      "class": "js"
+      "name": "Lando",
+      "percent": "85",
+      "class": "docker"
+    },
+    {
+      "name": "Docker",
+      "percent": "80",
+      "class": "docker"
+    },
+    {
+      "name": "MySQL",
+      "percent": "85",
+      "class": "sql"
+    },
+    {
+      "name": "Mongo",
+      "percent": "80",
+      "class": "sql"
     }
 ],
 "projects": [
   {
-    "subtitle": "Development",
-    "title": "dev-www.42mate.com",
-    "textExplaining": "My first job was to create a new page from scratch for the 42mate site with a new fresh style and design. Doing the most part of the backend and the frontend. Nowadays the project is in stand by, waiting for someone to transfer all the original content from the original site to this new site. The site is 100% usable and functional! (Just we need more workers LoL!)",
+    "subtitle": "Backend & Frontend",
+    "tech": "Symfony + VueJs",
+    "title": "kingmonstercup.es",
+    "textExplaining": "This was one of my shortest projects, the objective here was to design a simple page to exchange codes and rank people for a 6 months promotion that the client BurgerKing + Monster was released. They asked us for a responsive design with a fresh look, simple, minimalist and attractive. Most of the work here was just frontend. The result? Was crazy awesome, one of my favorite projects.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "kingmonster.png",
+    "siteURL": "https://kingmonstercup.es"
+  },
+  {
+    "subtitle": "Backend & Frontend",
+    "tech": "Symfony + VueJs",
+    "title": "flipsimply.com",
+    "textExplaining": "Flipsimply is a full animated crowdfunding page, this was the first project that I fully developed from scratch when I swap of company from 42mate(Argentina) to Stampymail(Spain). This was my first experience working remotely, and I really liked (I continue working remotely to nowadays).",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "flipsimply.png",
+    "siteURL": "https://flipsimply.com"
+  },
+  {
+    "subtitle": "Backend & Frontend",
+    "tech": "Drupal 7 + VueJs",
+    "title": "www.42mate.com",
+    "textExplaining": "My first job was to create a new page from scratch for the 42mate site with a new fresh style and design. Doing the most part of the backend, frontend and architecture design.",
     "photoSub": "",
     "photoTitle": "Site preview",
     "imgSrc": "42mate.png",
-    "siteURL": "https://dev-www.42mate.com"
+    "siteURL": "https://www.42mate.com"
   },
   {
-    "subtitle": "Maintenance",
+    "subtitle": "Maintainer",
+    "tech": "Drupal 7",
     "title": "RIF.org",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
@@ -81,7 +118,8 @@
     "siteURL": "https://www.rif.org"
   },
   {
-    "subtitle": "Maintenance",
+    "subtitle": "Maintainer",
+    "tech": "Drupal 7",
     "title": "Skybrary.org | Consumer",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
@@ -90,7 +128,8 @@
     "siteURL": "https://www.skybrary.org"
   },
   {
-    "subtitle": "Maintenance",
+    "subtitle": "Maintainer",
+    "tech": "Drupal 7",
     "title": "school.Skybrary.org | EDU",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
