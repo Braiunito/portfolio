@@ -65,7 +65,7 @@
                   <br>Sponsor: Argentina government
                   <br>Duration: 1 year</li>
                 <li>Informatorio
-                  <br>Sponsor: Sponsored by Globant and PoloIT
+                  <br>Sponsor: <a href="https://www.globant.com/" target="_blank">Globant</a> and <a href="https://poloitchaco.org.ar/" target="_blank">PoloIT</a>
                   <br>Duration: 1 year</li>
                 <li>CS50: Web programming with python and Javascript
                   <br>Sponsor: Harvard university
@@ -88,7 +88,7 @@
                 <li>I'm currently coursing my university career
                   <br>Name: Computer Science
                   <br>University: Siglo21
-                  <br>Duration: {{getTimeFromStartUniversity}} months to Nowadays</li>
+                  <br>Duration: {{getTimeFromStartUniversity}} months. Currently in stand-by</li>
               </ul>
             </p>
 
@@ -121,7 +121,7 @@ export default {
       return this.fromDateToNowadays("2020/06/05");
     },
     getTimeFromStartUniversity() {
-      return this.fromDateToNowadays("2019/03/02");
+      return this.fromDateToNowadays("2019/03/02", 6);
     },
     getTimeFromStartAtJob() {
       return this.fromDateToNowadays("2019/09/14");
@@ -138,10 +138,10 @@ export default {
       }
       return path;
     },
-    fromDateToNowadays(fromDate) {
+    fromDateToNowadays(fromDate, yearsFormat = 12) {
       let startDate = new Date(fromDate);
       let nowTime = new Date(Date.now());
-      let years = (nowTime.getFullYear() - startDate.getFullYear()) * 12;
+      let years = (nowTime.getFullYear() - startDate.getFullYear()) * yearsFormat;
       let timeElapsed = (nowTime.getMonth() + years) - startDate.getMonth();
       
       return timeElapsed

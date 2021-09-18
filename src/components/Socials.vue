@@ -1,10 +1,10 @@
 <template>
     <div class="d-flex justify-content-center aling-items-center">
         <div class="icons col-sm-12 mt-3 d-flex justify-content-between">
-            <a href="https://www.instagram.com/ariel_bma/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-            <a href="https://wa.me/5493625209840" target="_blank"><font-awesome-icon :icon="['fab', 'whatsapp']" /></a>
+            <a href="mailto:braiantablet@gmail.com" target="_blank"><font-awesome-icon :icon="['fab', 'google-plus-square']" /></a>
+            <a href="https://wa.me/5493625209840" target="_blank"><font-awesome-icon :icon="['fab', 'whatsapp-square']" /></a>
             <a href="https://www.linkedin.com/in/braianarielmaciel/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
-            <a href="https://github.com/Braiunito" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a>
+            <a href="https://github.com/Braiunito" target="_blank"><font-awesome-icon :icon="['fab', 'github-square']" /></a>
         </div>
     </div>
 </template>

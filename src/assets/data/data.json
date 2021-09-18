@@ -6,16 +6,6 @@
       "class": "js"
     },
     {
-      "name": "PHP",
-      "percent": "90",
-      "class": "php"
-    },
-    {
-      "name": "Python",
-      "percent": "72",
-      "class": "python"
-    },
-    {
       "name": "VueJs",
       "percent": "85",
       "class": "js"
@@ -29,6 +19,11 @@
       "name": "React",
       "percent": "60",
       "class": "js"
+    },
+    {
+      "name": "PHP",
+      "percent": "90",
+      "class": "php"
     },
     {
       "name": "Symfony",
@@ -46,23 +41,28 @@
       "class": "php"
     },
     {
+      "name": "Python",
+      "percent": "72",
+      "class": "python"
+    },
+    {
       "name": "Django",
-      "percent": "68",
+      "percent": "70",
       "class": "python"
     },
     {
       "name": "Flask",
-      "percent": "62",
+      "percent": "65",
       "class": "python"
+    },
+    {
+      "name": "Docker",
+      "percent": "75",
+      "class": "docker"
     },
     {
       "name": "Lando",
       "percent": "85",
-      "class": "docker"
-    },
-    {
-      "name": "Docker",
-      "percent": "80",
       "class": "docker"
     },
     {
@@ -78,7 +78,7 @@
 ],
 "projects": [
   {
-    "subtitle": "Backend & Frontend",
+    "subtitle": "Full Stack",
     "tech": "Symfony + VueJs",
     "title": "kingmonstercup.es",
     "textExplaining": "This was one of my shortest projects, the objective here was to design a simple page to exchange codes and rank people for a 6 months promotion that the client BurgerKing + Monster was released. They asked us for a responsive design with a fresh look, simple, minimalist and attractive. Most of the work here was just frontend. The result? Was crazy awesome, one of my favorite projects.",
@@ -88,7 +88,7 @@
     "siteURL": "https://kingmonstercup.es"
   },
   {
-    "subtitle": "Backend & Frontend",
+    "subtitle": "Full Stack",
     "tech": "Symfony + VueJs",
     "title": "flipsimply.com",
     "textExplaining": "Flipsimply is a full animated crowdfunding page, this was the first project that I fully developed from scratch when I swap of company from 42mate(Argentina) to Stampymail(Spain). This was my first experience working remotely, and I really liked (I continue working remotely to nowadays).",
@@ -98,7 +98,27 @@
     "siteURL": "https://flipsimply.com"
   },
   {
-    "subtitle": "Backend & Frontend",
+    "subtitle": "Full Stack",
+    "tech": "Symfony + VueJs",
+    "title": "smartescrow.eu",
+    "textExplaining": "SmartEscrow is a platform for direct financing of purchase orders and purchase commitment contracts by regular suppliers of well-known brands. The financing doesn't ask for personal guarantees, collateral products, it is not accounted for in the CIRBE and the supplier's client does not have to acknowledge the debt to Smart Escrow or carry out any procedure, once the first order is made using the system, the rest will be financed automatically.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "smartescrow.png",
+    "siteURL": "https://smartescrow.eu"
+  },
+  {
+    "subtitle": "Maintainer",
+    "tech": "Python",
+    "title": "www.lanzanos.com",
+    "textExplaining": "Lanzanos It's a financing system that connects people who have projects with people who are willing to finance them through small and medium contributions. In return, the creator gives his patrons a specific reward related to the product to be financed. This software it's currently outadet/legacy and we are working in migrate it to symfony/laravel.",
+    "photoSub": "",
+    "photoTitle": "Site preview",
+    "imgSrc": "lanzanos.png",
+    "siteURL": "https://www.lanzanos.com/"
+  },
+  {
+    "subtitle": "Full Stack",
     "tech": "Drupal 7 + VueJs",
     "title": "www.42mate.com",
     "textExplaining": "My first job was to create a new page from scratch for the 42mate site with a new fresh style and design. Doing the most part of the backend, frontend and architecture design.",
@@ -140,8 +160,8 @@
   {
     "subtitle": "You choose!",
     "title": "Your new site?",
-    "textExplaining": "I could be your next big hit in your team, I could cover some roll and support to the others, teamwork, improve communication, teach and learn together. And a lot of things more! Are you interested? Just scroll a little bit more! Thanks for getting here!!!",
-    "photoSub": "Your new awesome site!",
+    "textExplaining": "Looking for a multidisciplinary candidate? Don't look any further! I can cover multiple roles as you need, support and improve communication in teams, teach and learn from other. And a lot of things more! Are you interested? <a target='_blank' href='https://www.linkedin.com/in/braianarielmaciel/'>Contact me now!</a> Thank you for having come till here!",
+    "photoSub": "Your new awesome project!",
     "photoTitle": "",
     "imgSrc": "mockup.png",
     "siteURL": ""

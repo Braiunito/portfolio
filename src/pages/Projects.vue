@@ -1,7 +1,7 @@
 <template>
   <div class="projects">
     <div class="container d-flex flex-column align-items-center">
-      <div v-for="(project, index) in projects"  :key="index">
+      <div class="container" v-for="(project, index) in projects"  :key="index">
         <MyProjects :alternate = '((index%2)==0) ? "flex-row" : "flex-row-reverse"'
                     :subtitle = 'project.subtitle'
                     :tech = 'project.tech'

@@ -16,12 +16,12 @@
                         </span>
                         <br>
                         <span>
-                            <strong>Cell:</strong> +54 9 362-520-9840
+                            <strong>Phone:</strong> +54 9 362-520-9840
                         </span>
                     </p>
                 </div>
         </div>
-        <p class="row copyright w-100 h-100 d-flex justify-content-center">©2020 Braian Ariel Maciel, This portfolio it's property of Braian Ariel Maciel. All rights reserved.</p>
+        <p class="row copyright w-100 h-100 d-flex justify-content-center">©2020 Braian Ariel Maciel, This website it's property of Braian Ariel Maciel. All rights reserved.</p>
     </div>
 </template>
 

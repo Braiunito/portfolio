@@ -13,14 +13,16 @@
         <!-- here you can swap with class flex-row and flex-row-reverse -->
         <div :class="'row d-flex '+alternate+' justify-content-between align-items-center w-100 h-100 mt-5'">
           <div class="col-lg-5 pt-5 d-flex flex-column justify-content-start align-items-start">
-            <p class="text-spaced m-0">{{(subtitle != '') ? 'Role: '+subtitle : ''}}</p>
+            <p class="text-spaced m-0">{{(subtitle != '') ? 'Role: '+subtitle : ''}} 
+                <img v-if="subtitle.trim().toLowerCase() == 'Full Stack'.trim().toLowerCase()" 
+                width="30" :src="getImgUrl('star.png')" alt="">
+            </p>
             <p v-if="tech" class="m-0">
-                <small>{{(tech != '') ? 'Stack: '+tech : ''}}</small>
+                <small>{{(tech != '') ? 'Tech: '+tech : ''}}</small>
             </p>
             <h1 class="noSelectable font-weight-bold mt-2" id="textChanger"><a :href="siteURL" target="_blank">{{title}}</a></h1>
             <br>
-            <p class="text-justify">
-              {{textExplaining}}
+            <p v-html="textExplaining" class="text-justify">
             </p>
           </div> 
           <div class="col-lg-6 pt-5 d-flex flex-column justify-content-start align-items-start">
