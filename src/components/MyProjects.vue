@@ -11,16 +11,16 @@
     7. imgSrc: the path of the photo of the web project. -->
     <div>
         <!-- here you can swap with class flex-row and flex-row-reverse -->
-        <div :class="'row d-flex '+alternate+' justify-content-between align-items-center w-100 h-100 mt-5'">
+        <div :class="'row d-flex '+alternate+' justify-content-between align-items-center w-100 h-100 mt-5 mx-0'">
           <div class="col-lg-5 pt-5 d-flex flex-column justify-content-start align-items-start">
-            <p class="text-spaced m-0">{{(subtitle != '') ? 'Role: '+subtitle : ''}} 
+            <p class="text-spaced text-break m-0">{{(subtitle != '') ? 'Role: '+subtitle : ''}} 
                 <img v-if="subtitle.trim().toLowerCase() == 'Full Stack'.trim().toLowerCase()" 
                 width="30" :src="getImgUrl('star.png')" alt="">
             </p>
             <p v-if="tech" class="m-0">
                 <small>{{(tech != '') ? 'Tech: '+tech : ''}}</small>
             </p>
-            <h1 class="noSelectable font-weight-bold mt-2" id="textChanger"><a :href="siteURL" target="_blank">{{title}}</a></h1>
+            <h1 class="text-break noSelectable font-weight-bold mt-2" id="textChanger"><a :href="siteURL" target="_blank">{{title}}</a></h1>
             <br>
             <p v-html="textExplaining" class="text-justify">
             </p>
@@ -32,7 +32,7 @@
             </a>
             <span class="text-justify imgProject">
               <a :href="siteURL" target="_blank">
-                <img :src="getImgUrl(imgSrc)" alt="Porject image">
+                <img class="px-0" :src="getImgUrl(imgSrc)" alt="Porject image">
               </a>
             </span>
           </div> 

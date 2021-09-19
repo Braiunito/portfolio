@@ -1,7 +1,7 @@
 <template>
   <div class="hero" style="display: flex; flex-direction: column">
     <div class="container">
-      <div class="mainContent row d-flex align-items-center w-100 h-100">
+      <div class="mainContent row d-flex align-items-center w-100 h-100 mx-0">
         <div class="col-lg-6 d-flex flex-column align-items-center">
           <div
             class="highlight noSelectable d-flex flex-column align-items-center"

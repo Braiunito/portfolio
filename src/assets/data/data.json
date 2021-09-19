@@ -80,7 +80,7 @@
   {
     "subtitle": "Full Stack",
     "tech": "Symfony + VueJs",
-    "title": "kingmonstercup.es",
+    "title": "King Monster Cup",
     "textExplaining": "This was one of my shortest projects, the objective here was to design a simple page to exchange codes and rank people for a 6 months promotion that the client BurgerKing + Monster was released. They asked us for a responsive design with a fresh look, simple, minimalist and attractive. Most of the work here was just frontend. The result? Was crazy awesome, one of my favorite projects.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -90,7 +90,7 @@
   {
     "subtitle": "Full Stack",
     "tech": "Symfony + VueJs",
-    "title": "flipsimply.com",
+    "title": "Flipsimply",
     "textExplaining": "Flipsimply is a full animated crowdfunding page, this was the first project that I fully developed from scratch when I swap of company from 42mate(Argentina) to Stampymail(Spain). This was my first experience working remotely, and I really liked (I continue working remotely to nowadays).",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -100,7 +100,7 @@
   {
     "subtitle": "Full Stack",
     "tech": "Symfony + VueJs",
-    "title": "smartescrow.eu",
+    "title": "Smart Escrow",
     "textExplaining": "SmartEscrow is a platform for direct financing of purchase orders and purchase commitment contracts by regular suppliers of well-known brands. The financing doesn't ask for personal guarantees, collateral products, it is not accounted for in the CIRBE and the supplier's client does not have to acknowledge the debt to Smart Escrow or carry out any procedure, once the first order is made using the system, the rest will be financed automatically.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -110,7 +110,7 @@
   {
     "subtitle": "Maintainer",
     "tech": "Python",
-    "title": "www.lanzanos.com",
+    "title": "Lanzanos",
     "textExplaining": "Lanzanos It's a financing system that connects people who have projects with people who are willing to finance them through small and medium contributions. In return, the creator gives his patrons a specific reward related to the product to be financed. This software it's currently outadet/legacy and we are working in migrate it to symfony/laravel.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -120,7 +120,7 @@
   {
     "subtitle": "Full Stack",
     "tech": "Drupal 7 + VueJs",
-    "title": "www.42mate.com",
+    "title": "42mate",
     "textExplaining": "My first job was to create a new page from scratch for the 42mate site with a new fresh style and design. Doing the most part of the backend, frontend and architecture design.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -130,7 +130,7 @@
   {
     "subtitle": "Maintainer",
     "tech": "Drupal 7",
-    "title": "RIF.org",
+    "title": "RIF",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -140,7 +140,7 @@
   {
     "subtitle": "Maintainer",
     "tech": "Drupal 7",
-    "title": "Skybrary.org | Consumer",
+    "title": "Skybrary | Consumer",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
     "photoTitle": "Site preview",
@@ -150,7 +150,7 @@
   {
     "subtitle": "Maintainer",
     "tech": "Drupal 7",
-    "title": "school.Skybrary.org | EDU",
+    "title": "Skybrary | EDU",
     "textExplaining": "Daily one of the main projects in that I work it's this, I'm the in charge of fix bugs, create new features, analyze the logs, discover new issues, monitoring the traffic and more.",
     "photoSub": "",
     "photoTitle": "Site preview",
